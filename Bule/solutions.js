@@ -1,0 +1,1 @@
+console.log('There is no solutions here young man. Go work on your homework. It\'s relatively easy you know.');
