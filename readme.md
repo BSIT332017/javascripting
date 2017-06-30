@@ -10,6 +10,8 @@ If you're using GitHub for Windows (the desktop app), once you enter your creden
 
 If you're more of a terminal (command-prompt) person and you downloaded [GitBash](https://git-for-windows.github.io/), you can just clone the repository by typing the command `git clone git@github.com:BSIT332017/javascripting.git`. This would clone the repository to your current working directory (where your command-prompt is currently pointed before you execute the command).
 
+If you encounter an authorization error while cloning, it means you do not have the proper credentials to to clone this repo. To fix this, you need to generate your own SSH key. For GitHub for Windows users, this is automatically done for you upon login afaik. For Git for Windows (Git Bash or Git GUI), you can generate your SSH keys when you open Git GUI and then click Help on the menu bar. Copy your SSH key and then go to GitHub, click on your profile at the top right of your screen, click on Settings, go to SSH and GPG tab, then add your SSH key there.
+
 ### Pull updates
 
 Chances are that you'll not be the first one to pass your homework. If so, you should pull any updates from the remote repository before proceeding. To do this, look for the "Pull" button, or if you're using the command-prompt, inside the repository directory, issue a `git pull` command.
