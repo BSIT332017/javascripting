@@ -1,6 +1,6 @@
-function math(a,b,c)
-{
-    return (b * c) + a ; 
+function math(firstArg, secondArg, thirdArg){
+
+return firstArg+(secondArg * thirdArg);
 }
 
-console.log(math(53,61,67));
+console.log(math(53, 61, 67));

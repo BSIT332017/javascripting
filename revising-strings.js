@@ -1,3 +1,5 @@
-var example = 'pizza is alright';
-example = example.replace('alright','wonderful');
-console.log(example);
+var pizza = 'pizza is alright';
+
+pizza= pizza.replace('alright' , 'wonderful');
+
+console.log(pizza);
